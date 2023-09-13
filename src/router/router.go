@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"strings"
 	"supermancell/src/api"
 	"time"
 
@@ -57,7 +58,15 @@ func WebsocketClientRouter(path string, ch chan string, interrupt chan os.Signal
 				log.Println("read:", err)
 				return
 			}
-			log.Printf("recv: %s", message)
+
+			switch {
+			case strings.Contains(string(message), "event"):
+				log.Printf("recv: %s", message) //TODO 事件处理
+			case strings.Contains(string(message), "data") && strings.Contains(string(message), "arg"):
+				log.Printf("recv: %s", message) //TODO 推送处理
+			default:
+				log.Printf("recv: %s", message)
+			}
 		}
 	}()
 
