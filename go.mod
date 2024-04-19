@@ -3,15 +3,18 @@ module hertz_demo
 go 1.19
 
 require (
+	github.com/amir-the-h/okex v1.1.4-alpha
 	github.com/cloudwego/hertz v0.8.1
 	github.com/gorilla/websocket v1.5.1
 	github.com/hertz-contrib/logger/logrus v1.0.1
 	github.com/hertz-contrib/registry/nacos v0.0.0-20240117071831-d07355f82f9f
 	github.com/hertz-contrib/registry/nacos/v2 v2.0.0-20240117071831-d07355f82f9f
 	github.com/hertz-contrib/reverseproxy v1.0.5
+	github.com/mitchellh/mapstructure v1.5.0
 	github.com/nacos-group/nacos-sdk-go v1.1.4
 	github.com/nacos-group/nacos-sdk-go/v2 v2.2.5
 	github.com/sirupsen/logrus v1.9.0
+	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (

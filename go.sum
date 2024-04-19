@@ -54,6 +54,8 @@ github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.2.2 h1:rWkH6D2XlXb/Y+tNAQROxBz
 github.com/aliyun/alibabacloud-dkms-gcs-go-sdk v0.2.2/go.mod h1:GDtq+Kw+v0fO+j5BrrWiUHbBq7L+hfpzpPfXKOZMFE0=
 github.com/aliyun/alibabacloud-dkms-transfer-go-sdk v0.1.7 h1:olLiPI2iM8Hqq6vKnSxpM3awCrm9/BeOgHpzQkOYnI4=
 github.com/aliyun/alibabacloud-dkms-transfer-go-sdk v0.1.7/go.mod h1:oDg1j4kFxnhgftaiLJABkGeSvuEvSF5Lo6UmRAMruX4=
+github.com/amir-the-h/okex v1.1.4-alpha h1:dnn14GAUxi0W2yNxL2GERZTZ/iAUkCBnAbV6Z/CxWv8=
+github.com/amir-the-h/okex v1.1.4-alpha/go.mod h1:ngcGmYzAiBKg18umdZqBDM8aluy3Q0gJMGSyeLo1XHA=
 github.com/antihax/optional v1.0.0/go.mod h1:uupD/76wgC+ih3iEmQUL+0Ugr19nfwCT1kdvxnR2qWY=
 github.com/benbjohnson/clock v1.1.0 h1:Q92kusRqC1XV2MjkWETPvjJVqKetz1OzxZB7mHJLju8=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
@@ -243,6 +245,8 @@ github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
 github.com/kr/text v0.2.0/go.mod h1:eLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=
 github.com/matttproud/golang_protobuf_extensions v1.0.1 h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
+github.com/mitchellh/mapstructure v1.5.0 h1:jeMsZIYE/09sWLaz43PL7Gy6RuMjD2eJVyuac5Z2hdY=
+github.com/mitchellh/mapstructure v1.5.0/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RRV2QTWOzhPopBRo=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
