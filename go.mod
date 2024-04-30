@@ -15,6 +15,8 @@ require (
 	github.com/nacos-group/nacos-sdk-go/v2 v2.2.5
 	github.com/sirupsen/logrus v1.9.0
 	gopkg.in/yaml.v2 v2.4.0
+	gorm.io/driver/mysql v1.5.6
+	gorm.io/gorm v1.25.10
 )
 
 require (
@@ -34,11 +36,14 @@ require (
 	github.com/cloudwego/netpoll v0.5.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
+	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/henrylee2cn/ameda v1.4.10 // indirect
 	github.com/henrylee2cn/goutil v0.0.0-20210127050712-89660552f6f8 // indirect
 	github.com/hertz-contrib/websocket v0.0.1 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect

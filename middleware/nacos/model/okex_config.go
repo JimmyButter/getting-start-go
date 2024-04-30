@@ -1,8 +1,4 @@
-package nacos
-
-var (
-	OkexConfigYAML OkexConfig
-)
+package model
 
 type OkexConfig struct {
 	ApiKey     string `json:"apiKey"`

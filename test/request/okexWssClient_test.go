@@ -8,11 +8,10 @@ import (
 	"time"
 )
 //wss://ws.okx.com:8443/ws/v5/business
-func TestWs(t *testing.T) {
+func TestWsPubConnec(t *testing.T) {
 
 	interrupt := make(chan os.Signal, 1)
 	signal.Notify(interrupt, os.Interrupt)
 	request.PubConnec(interrupt)
-
 	time.Sleep(300 * time.Second)
 }

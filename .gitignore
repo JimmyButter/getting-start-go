@@ -5,3 +5,4 @@ tmp/*
 middleware/nacos/tmp/*
 route/okex/tmp/*
 test/middlew/tmp/*
+test/request/tmp/*

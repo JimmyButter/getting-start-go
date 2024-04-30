@@ -77,11 +77,11 @@ func start(path string, ch <-chan string, interrupt chan os.Signal) {
 }
 
 func PubConnec(interrupt chan os.Signal) {
-	instSet := []string{"BTC-USDT-SWAP", "ETH-USDT-SWAP"}
+	instSet := []string{"BTC-USDT-SWAP"}
 	op := OpVo{Op: "subscribe"}
 
 	for _, instId := range instSet {
-		args := OpArgs{Channel: "candle1H", InstId: instId}
+		args := OpArgs{Channel: "candle15m", InstId: instId}
 		op.Args = append(op.Args, args)
 	}
 

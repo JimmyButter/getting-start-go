@@ -1,0 +1,7 @@
+ip: 127.0.0.1
+path: /nacos
+port: 8848
+scheme: http
+namespace: d165c4e0-c76b-42cc-81bb-b173ffa5ad3d
+timeout: 5000
+cache: true
